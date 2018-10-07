@@ -97,9 +97,7 @@
   </li>
 </ul>
 </div>
-<form class="SearchForm"  method="get" action="https://google.com/search" autocomplete="off">
-  <input class="searchBox" id="searchBox" name="q" type="text" placeholder="" autofocus>
-</form>
+
 </body>
 
 <style>
@@ -107,29 +105,11 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
 body {
-  background-color: #161616;
+	background-image: url("wallpaper.jpg");
+  /*background-color: #000000;*/
   font-family: 'Josefin Sans', sans-serif;
 }
 
-.SearchForm {
-  position: fixed;
-  top: 70%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.searchBox {
-  font-size: 5em;
-  text-align: center;
-  background-color: #161616;
-  border: none;
-  color: transparent;
-  text-shadow: 0 0 0 white;
-}
-
-.searchBox:focus {
-  outline:0;
-}
 
 #txt {
   position: fixed;
@@ -164,7 +144,7 @@ li {
 
 .icon {
   position: relative;
-  color: #161616;
+  color: #fff;
   position: relative;
   display: inline-block;
   width: 12em;
@@ -180,7 +160,7 @@ li {
   width: 3.6875em;
   height: 3.6875em;
   margin: -1.84375em;
-  background: currentColor;
+  background: #fff;
   border-radius: 50%;
   box-shadow:
     -2.1875em 0.6875em 0 -0.6875em,
@@ -197,7 +177,7 @@ li {
   display: block;
   width: 4.5625em;
   height: 1em;
-  background: currentColor;
+  background: #fff;
   box-shadow: 0 0.4375em 0 -0.0625em #fff;
 }
 .cloud:nth-child(2) {
@@ -222,7 +202,7 @@ li {
   width: 2.5em;
   height: 2.5em;
   margin: -1.25em;
-  background: currentColor;
+  background: #00;
   border-radius: 50%;
   box-shadow: 0 0 0 0.375em #fff;
   animation: spin 12s infinite linear;
@@ -271,7 +251,7 @@ li {
   width: 3.75em;
   height: 3.75em;
   margin: 0.375em 0 0 -2em;
-  background: currentColor;
+  background: #00;
 }
 
 .rain:after {
